@@ -102,15 +102,46 @@
       <section id="misproyectos"><!-- mis proyectos -->
         <div class="container-mis-proyectos">
             <div>
-              <h2 class="titulo-proyectos">Mis proyectos</h2>
+              <h2 class="titulo-proyectos">Mis proyectos</h2> <!-- Titulo -->
             </div>
             <div>
               <p class="text-proyecto">
-                Estos son algunos de mis proyectos realizados:
+                Estos son algunos de mis proyectos realizados: <!-- Subtitulo -->
               </p>
             </div>
-            <div class="card-proyectos">
-              
+              <div class="container-card-group">
+                <div class="row group-card">
+                  <div class="card col-4">
+                  <img src="./img/card-img1.jpg" class="card-img-top" alt="desarrollo web de cero">
+                  <div class="card-body">
+                    <h5 class="card-title">Desarrollo web desde 0</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card col-4">
+                  <img src="./img/card-img2.jpg" class="card-img-top" alt="web responsive">
+                  <div class="card-body">
+                    <h5 class="card-title">Página web Responsive</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card col-4">
+                  <img src="./img/card-img3.jpg" class="card-img-top" alt="portfolio personal">
+                  <div class="card-body">
+                    <h5 class="card-title">Portfolio Personal</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
       </section><!-- mis proyectos -->
@@ -125,13 +156,34 @@
                 ¡Completá el formulario y en breve te responderé!
               </p>
             </div>
-              <div class="container-formulario">
-                
-
-
-
-
-
+              <div class="container-formulario mt-4">
+                <div class="row">
+                  <div class="mb-1 col-6 p-2">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="tu nombre" required>
+                  </div>
+                  <div class="mb-1 col-6 p-2">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="tu apellido" required>
+                  </div>
+                </div>
+                <div class="mb-1 col-12 p-2">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="tu-email@ejemplo.com" required>
+                </div>
+                <div class="mb-1 col-12 p-2">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" rows="5"></textarea>
+                </div>
+                <div class="mb-1 col-12 p-2">
+                  <div class="form-check">
+                    <label for="checkterm" class="form-check-label">Acepto los términos</label>
+                  <input type="checkbox" id="checkterm" class="form-check-input" required>
+                  </div>
+                </div>
+                <div class="mb-1 col-12 p-2">
+                  <button class="btn boton-enviar" type="submit" value="enviar">Enviar</button>
+                </div>
               </div>
         </div>
       </section><!-- contacto -->

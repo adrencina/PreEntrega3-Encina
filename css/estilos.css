@@ -86,7 +86,6 @@ nav, .container-fluid, img, .navbar-nav, .collapse, .navbar-toggler-icon{
     width: auto;
     height: 88vh;
 }
-
 .text-sobre-mi, .text-contacto, .text-proyecto{
     font-size: 20px;
     margin-top: 5px;
@@ -94,7 +93,6 @@ nav, .container-fluid, img, .navbar-nav, .collapse, .navbar-toggler-icon{
 .col-xs-8, .col-xs-2, .container{
     padding: 0px;
 }
-
 .titulo-sobre-mi, .titulo-proyectos, .titulo-contacto{
     font-size: 45px;
     text-align: center;
@@ -113,7 +111,7 @@ nav, .container-fluid, img, .navbar-nav, .collapse, .navbar-toggler-icon{
     justify-content: center;
     text-align: center;
 }
-.container-contacto, .container-mis-proyectos, .container-sobre-mi{
+.container-contacto, .container-sobre-mi{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,15 +120,41 @@ nav, .container-fluid, img, .navbar-nav, .collapse, .navbar-toggler-icon{
     margin: 10px 25px;
 }
 .container-formulario{
+    width: auto;
+}
+.boton-enviar{
+    background-color: #4c94b1;
+    color: #e2f5f2;
+}
+.container-card-group{
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+.group-card{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
+.card-img-top{
+    height: 300px;
+    width: 300px;
+}
+.card{
+    height: 50vp;
+    margin: 0px;
+    padding: 0px;
+}
+.container-mis-proyectos{
+    width: auto;
+    margin: 10px 10px;
+}
+
 
 footer{
     width: auto;
     background-color: #050505;
-    color: #4c94b1;
+    color: #e2f5f2;
     display: flex;
     align-items: center;
     justify-content: center;
