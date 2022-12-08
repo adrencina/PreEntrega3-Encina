@@ -9,9 +9,33 @@ body{
     background-color: #96c0d1;
 }
 
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: auto;
+    margin: 10px 10px;
+}
+
 @import "menuNavegacion";
 @import "sectionInicio";
-@import "sectionQsoy";
+@import "sectionSobremi";
 @import "sectionProyectos";
 @import "sectionContacto";
 @import "mediaQ";
+
+
+
+footer{
+    font-size: 1rem;
+    width: auto;
+    background-color: #050505;
+    color: #e2f5f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+}
