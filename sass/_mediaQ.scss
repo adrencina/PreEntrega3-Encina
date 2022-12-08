@@ -1,0 +1,70 @@
+
+@media (min-width: 992px){
+    #navbarSupportedContent{
+            width: auto;
+            display: flex;
+            justify-content:flex-end
+    }
+    }
+    
+    @media (min-width: 768px){
+        #inicio, #sobre-mi, #misproyectos, #contacto{
+            height: auto;
+        } 
+    }
+    @media (min-width: 576px){
+        #inicio, #sobre-mi, #misproyectos, #contacto{
+            height: auto;
+        } 
+    }
+    @media (max-width: 576px){
+        #inicio, #sobre-mi, #misproyectos, #contacto{
+            height: auto;
+        } 
+    }
+    @media (min-width: 768px){
+    .container-text{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: auto;
+        margin: auto;
+    }
+    }
+    @media (min-width: 576px){
+    .container-text{
+            margin-top: 40px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+    }
+    }
+    @media (max-width: 576px){
+    .container-text{
+            margin-top: 40px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+    }
+    }
+    @media (max-width: 576px){
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            width: 75%;
+        }
+    }

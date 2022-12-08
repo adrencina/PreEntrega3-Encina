@@ -1,0 +1,49 @@
+
+
+nav{
+    background-color: #eff5f4;
+    text-decoration: none;
+    border: none;
+    & .navbar{
+        margin: 0px;
+        padding: 0px;
+    }
+    & .container-fluid{
+        background-color: #eff5f4;
+        text-decoration: none;
+        border: none;
+        margin: 0px;
+        padding: 0px 30px;
+    & .navbar-brand{
+        font-size: 30px;
+        }
+    & img{
+        background-color: #eff5f4;
+        text-decoration: none;
+        border: none;
+        }
+    & .navbar-toggler{
+        margin: 5px;
+        & .navbar-toggler-icon{
+            background-color: #eff5f4;
+            text-decoration: none;
+            border: none;
+            }
+        }
+    & .collapse{
+        background-color: #eff5f4;
+        text-decoration: none;
+        border: none;
+        & .navbar-nav{
+            background-color: #eff5f4;
+            text-decoration: none;
+            border: none;
+            & .nav-link{
+                font-size: 24px;
+            }
+            }
+        }
+    
+    }
+
+}

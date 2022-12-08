@@ -1,88 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
-}
-body{
-    width: auto;
-    background-color: #96c0d1;
-}
-.navbar-toggler{
-margin: 5px;
-}
-nav, .container-fluid, img, .navbar-nav, .collapse, .navbar-toggler-icon{
-    background-color: #eff5f4;
-    text-decoration: none;
-    border: none;
-}
-.nav-link{
-    font-size: 24px;
-}
-.navbar-brand{
-    font-size: 30px;
-}
 
-.navbar{
-    margin: 0px;
-    padding: 0px;
-}
 .container-fluid{
-    margin: 0px;
-    padding: 0px 30px;
-}
-.container, .container-fluid,
-.container-img{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.container{
-    margin-top: 100px
-}
-.imghome, .container-text{
-    display: flex;
-    align-items: center;
-    align-items:flex-start;
-    flex-direction: column;
-    text-align: start;
-    height: 250px;
-    margin: auto;
-    padding: auto;
-}
-.imghome{
-    border-radius: 1500px;
-}
-.link1, a{
-    color:#4c94b1;
-    text-decoration: none;
-}
-.row{
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.Text-Home{
-    color: #2e2e2e;
-    font-size: 45px;
-    font: 500;
-}
-.text-home-span{
-    font-size: 40px;
-}
-.container-text-parrafo{
-    color: #e2f5f2;
-    font-size: 24px;
-    font: 250;
-}
+
+
 #sobre-mi, #contacto{
     width: auto;
     background-color: #e2f5f2;
     height: 88vh;
 }
-#inicio, #misproyectos{
+
+.link1, a{
+    color:#4c94b1;
+    text-decoration: none;
+}
+
+#misproyectos{
     width: auto;
     height: 88vh;
 }
@@ -196,74 +132,4 @@ footer{
     align-items: center;
     justify-content: center;
     padding: 15px 0px;
-}
-
-@media (min-width: 992px){
-#navbarSupportedContent{
-        width: auto;
-        display: flex;
-        justify-content:flex-end
-}
-}
-
-@media (min-width: 768px){
-    #inicio, #sobre-mi, #misproyectos, #contacto{
-        height: auto;
-    } 
-}
-@media (min-width: 576px){
-    #inicio, #sobre-mi, #misproyectos, #contacto{
-        height: auto;
-    } 
-}
-@media (max-width: 576px){
-    #inicio, #sobre-mi, #misproyectos, #contacto{
-        height: auto;
-    } 
-}
-@media (min-width: 768px){
-.container-text{
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: auto;
-    margin: auto;
-}
-}
-@media (min-width: 576px){
-.container-text{
-        margin-top: 40px;
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 20px;
-}
-}
-@media (max-width: 576px){
-.container-text{
-        margin-top: 40px;
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 20px;
-}
-}
-@media (max-width: 576px){
-    .card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        width: 75%;
-    }
 }

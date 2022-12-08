@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif; }
+
+body {
+  width: auto;
+  background-color: #96c0d1; }
+
+nav {
+  background-color: #eff5f4;
+  text-decoration: none;
+  border: none; }
+  nav .navbar {
+    margin: 0px;
+    padding: 0px; }
+  nav .container-fluid {
+    background-color: #eff5f4;
+    text-decoration: none;
+    border: none;
+    margin: 0px;
+    padding: 0px 30px; }
+    nav .container-fluid .navbar-brand {
+      font-size: 30px; }
+    nav .container-fluid img {
+      background-color: #eff5f4;
+      text-decoration: none;
+      border: none; }
+    nav .container-fluid .navbar-toggler {
+      margin: 5px; }
+      nav .container-fluid .navbar-toggler .navbar-toggler-icon {
+        background-color: #eff5f4;
+        text-decoration: none;
+        border: none; }
+    nav .container-fluid .collapse {
+      background-color: #eff5f4;
+      text-decoration: none;
+      border: none; }
+      nav .container-fluid .collapse .navbar-nav {
+        background-color: #eff5f4;
+        text-decoration: none;
+        border: none; }
+        nav .container-fluid .collapse .navbar-nav .nav-link {
+          font-size: 24px; }
+
+#inicio {
+  width: auto;
+  height: auto; }
+  #inicio .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px; }
+    #inicio .container .row {
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+  #inicio .container-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    #inicio .container-img .imghome {
+      display: flex;
+      align-items: center;
+      align-items: flex-start;
+      flex-direction: column;
+      text-align: start;
+      height: 250px;
+      margin: auto;
+      padding: auto;
+      border-radius: 1500px; }
+  #inicio .container-text {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+    height: 250px;
+    margin: auto;
+    padding: auto; }
+    #inicio .container-text .Text-Home {
+      color: #2e2e2e;
+      font-size: 45px;
+      font: 500; }
+    #inicio .container-text .text-home-span {
+      font-size: 40px; }
+    #inicio .container-text .container-text-parrafo {
+      color: #e2f5f2;
+      font-size: 24px;
+      font: 250; }
+
+@media (min-width: 992px) {
+  #navbarSupportedContent {
+    width: auto;
+    display: flex;
+    justify-content: flex-end; } }
+
+@media (min-width: 768px) {
+  #inicio, #sobre-mi, #misproyectos, #contacto {
+    height: auto; } }
+
+@media (min-width: 576px) {
+  #inicio, #sobre-mi, #misproyectos, #contacto {
+    height: auto; } }
+
+@media (max-width: 576px) {
+  #inicio, #sobre-mi, #misproyectos, #contacto {
+    height: auto; } }
+
+@media (min-width: 768px) {
+  .container-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+    margin: auto; } }
+
+@media (min-width: 576px) {
+  .container-text {
+    margin-top: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px; } }
+
+@media (max-width: 576px) {
+  .container-text {
+    margin-top: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px; } }
+
+@media (max-width: 576px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 75%; } }
