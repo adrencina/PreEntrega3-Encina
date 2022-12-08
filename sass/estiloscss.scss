@@ -9,17 +9,7 @@ body{
     background-color: #96c0d1;
 }
 
-.container-fluid{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.container{
-    width: auto;
-    margin: 10px 10px;
-}
-
+@import "variables";
 @import "menuNavegacion";
 @import "sectionInicio";
 @import "sectionSobremi";

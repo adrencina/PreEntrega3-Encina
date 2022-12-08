@@ -8,16 +8,6 @@ body {
   width: auto;
   background-color: #96c0d1; }
 
-.container-fluid {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; }
-
-.container {
-  width: auto;
-  margin: 10px 10px; }
-
 nav {
   background-color: #eff5f4;
   text-decoration: none;
@@ -125,8 +115,10 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: justify;
-    margin: 0px 25px; }
+    margin: 0px 35px;
+    margin-bottom: 35px; }
     #sobre-mi .container-sobre-mi .text-sobre-mi {
+      width: auto;
       font-size: 20px;
       margin-top: 5px; }
       #sobre-mi .container-sobre-mi .text-sobre-mi .link1, #sobre-mi .container-sobre-mi .text-sobre-mi a {

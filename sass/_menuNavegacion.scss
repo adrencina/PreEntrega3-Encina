@@ -1,7 +1,7 @@
 
 
 nav{
-    background-color: #eff5f4;
+    background-color: $ColorNav;
     text-decoration: none;
     border: none;
     & .navbar{
@@ -9,7 +9,7 @@ nav{
         padding: 0px;
     }
     & .container-fluid{
-        background-color: #eff5f4;
+        background-color: $ColorNav;
         text-decoration: none;
         border: none;
         margin: 0px;
@@ -18,24 +18,24 @@ nav{
         font-size: 30px;
         }
     & img{
-        background-color: #eff5f4;
+        background-color: $ColorNav;
         text-decoration: none;
         border: none;
         }
     & .navbar-toggler{
         margin: 5px;
         & .navbar-toggler-icon{
-            background-color: #eff5f4;
+            background-color: $ColorNav;
             text-decoration: none;
             border: none;
             }
         }
     & .collapse{
-        background-color: #eff5f4;
+        background-color: $ColorNav;
         text-decoration: none;
         border: none;
         & .navbar-nav{
-            background-color: #eff5f4;
+            background-color: $ColorNav;
             text-decoration: none;
             border: none;
             & .nav-link{

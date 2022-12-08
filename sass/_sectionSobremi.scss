@@ -17,7 +17,7 @@
         margin-top: 50px;
     }
     .titulo-sobre-mi:hover{
-        color: #797a7a;
+        color: $hoverColTitulo;
     }
     & .container-sobre-mi{
         display: flex;
@@ -25,8 +25,10 @@
         align-items: center;
         justify-content: center;
         text-align:justify;
-        margin: 0px 25px;
+        margin: 0px 35px;
+        margin-bottom: 35px;
         & .text-sobre-mi{
+            width: auto;
             font-size: 20px;
             margin-top: 5px;
             .link1, a{
