@@ -14,9 +14,30 @@ body{
 @import "sectionInicio";
 @import "sectionSobremi";
 @import "sectionProyectos";
+@import "redes";
 @import "sectionContacto";
 @import "mediaQ";
 
+//* boton ir arriba //
+.button-up{
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 80px;
+        right: 50px;
+        cursor: pointer;
+        border: 4px solid transparent;
+    }
+
+   
+}
 
 
 footer{
