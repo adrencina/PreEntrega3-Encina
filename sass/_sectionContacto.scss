@@ -27,6 +27,10 @@
         }
         .container-formulario{
             width: auto;
+            .row{
+                padding: 6;
+                margin: 0;
+            }
         }
         .boton-enviar{
             background-color: #e2f5f2;

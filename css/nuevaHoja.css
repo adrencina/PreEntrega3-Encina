@@ -235,6 +235,9 @@ nav {
       margin-top: 5px; }
     #contacto .container-contacto .container-formulario {
       width: auto; }
+      #contacto .container-contacto .container-formulario .row {
+        padding: 6;
+        margin: 0; }
     #contacto .container-contacto .boton-enviar {
       background-color: #e2f5f2;
       color: #4c94b1; }
