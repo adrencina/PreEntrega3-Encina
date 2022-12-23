@@ -29,8 +29,12 @@
             width: auto;
         }
         .boton-enviar{
-            background-color: #4c94b1;
-            color: #e2f5f2;
+            background-color: #e2f5f2;
+            color: #4c94b1;
+        }
+        .boton-enviar:hover{
+            background-color: #c9cecd;
+            color: #ffffff;
         }
     }
 }

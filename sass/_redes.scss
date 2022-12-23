@@ -1,40 +1,30 @@
 #redes{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     background-color: #e2f5f2;
     height: auto;
-    & .col-xs-2{
-        padding: 0px;
+    .row{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    & .container{
-        padding: 0px;
-    }
-    & .titulo-sobre-mi{
-        font-size: 45px;
-        text-align: center;
-        margin-top: 50px;
-    }
-    .titulo-sobre-mi:hover{
-        color: $hoverColTitulo;
-    }
-    & .container-sobre-mi{
+    .cont-red{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        text-align:justify;
-        margin: 0px 35px;
-        margin-bottom: 35px;
-        & .text-sobre-mi{
-            width: auto;
-            font-size: 20px;
-            margin-top: 5px;
-            .link1, a{
-                color:#4c94b1;
-                text-decoration: none;
-            }
+        a{
+            color: black;
+            font-size: 2rem;
+            margin-bottom: 25px;
+            text-decoration: none;
         }
+        a:hover{
+            color:$hoverColTitulo;
+            cursor: pointer;
+        }
+        
     }
+}
+.icono-red1{
+    @include iconosRedes;
 }

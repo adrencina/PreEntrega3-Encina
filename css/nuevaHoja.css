@@ -182,37 +182,32 @@ nav {
       font-size: 1.1rem; }
 
 #redes {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   background-color: #e2f5f2;
   height: auto; }
-  #redes .col-xs-2 {
-    padding: 0px; }
-  #redes .container {
-    padding: 0px; }
-  #redes .titulo-sobre-mi {
-    font-size: 45px;
-    text-align: center;
-    margin-top: 50px; }
-  #redes .titulo-sobre-mi:hover {
-    color: #797a7a; }
-  #redes .container-sobre-mi {
+  #redes .row {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  #redes .cont-red {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: justify;
-    margin: 0px 35px;
-    margin-bottom: 35px; }
-    #redes .container-sobre-mi .text-sobre-mi {
-      width: auto;
-      font-size: 20px;
-      margin-top: 5px; }
-      #redes .container-sobre-mi .text-sobre-mi .link1, #redes .container-sobre-mi .text-sobre-mi a {
-        color: #4c94b1;
-        text-decoration: none; }
+    justify-content: center; }
+    #redes .cont-red a {
+      color: black;
+      font-size: 2rem;
+      margin-bottom: 25px;
+      text-decoration: none; }
+    #redes .cont-red a:hover {
+      color: #797a7a;
+      cursor: pointer; }
+
+.icono-red1 {
+  height: 120px;
+  width: 120px;
+  margin-top: 25px;
+  padding: 10px; }
 
 #contacto {
   width: auto;
@@ -241,8 +236,11 @@ nav {
     #contacto .container-contacto .container-formulario {
       width: auto; }
     #contacto .container-contacto .boton-enviar {
-      background-color: #4c94b1;
-      color: #e2f5f2; }
+      background-color: #e2f5f2;
+      color: #4c94b1; }
+    #contacto .container-contacto .boton-enviar:hover {
+      background-color: #c9cecd;
+      color: #ffffff; }
 
 @media (min-width: 992px) {
   #navbarSupportedContent {
