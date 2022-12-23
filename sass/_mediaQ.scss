@@ -68,3 +68,9 @@
             width: 75%;
         }
     }
+
+    @media (max-width: 576px){
+        footer h5{
+            font-size: 0.9rem;
+        }
+    }
